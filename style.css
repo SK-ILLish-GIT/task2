@@ -1,0 +1,47 @@
+/* 1. Import and use an external font
+2. Details like image, email, phone number, GitHub url, education details, skills, and contact me form 
+   should be mentioned
+3. Image should be circular, with a border
+4. Add a nice css bg to the cv (need not be the same as in example) and add a white card (with rounded 
+   corners) above it, on which there'll be all the details.
+5. All the info should be in a proper layout, and responsiveness is preferred
+6. Table must be stylized */
+* {
+  font-family: "Luxurious Roman", cursive;
+  text-align: center;
+}
+body {
+  background-image: url(img/bg.jpeg);
+}
+#container {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px;
+  background-color: white;
+}
+#my_img {
+  border: 2px solid black;
+  size: 50px;
+  border-radius: 50%;
+  width: 300px;
+  padding: 2px;
+}
+#education {
+  margin: 40px 0px;
+}
+#education_list {
+  display: inline-block;
+}
+#skills_table {
+  border: 2px solid black;
+  margin: 2px auto;
+}
+#skills_table th,
+td {
+  border: 1px solid black;
+}
+.form_it {
+  display: flex;
+  justify-content: space-around;
+}
